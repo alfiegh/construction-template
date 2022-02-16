@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/construction-template/static/css/main.dd7aebba.css",
+    "main.js": "/construction-template/static/js/main.e615490b.js",
+    "static/media/reports.jpg": "/construction-template/static/media/reports.ffa7137679971cac096a.jpg",
+    "static/media/parallax.jpg": "/construction-template/static/media/parallax.6bddef03621f3fbfd1fd.jpg",
+    "static/media/cad3.jpg": "/construction-template/static/media/cad3.2196ab5f70abf93494ff.jpg",
+    "static/media/person1.png": "/construction-template/static/media/person1.4148d7c0f21a8de5e0ae.png",
+    "static/media/cad7.png": "/construction-template/static/media/cad7.5ff912ccd1fa28bceb78.png",
+    "static/media/person3.png": "/construction-template/static/media/person3.2944342b51f903e5ac92.png",
+    "static/media/3dmodel.jpg": "/construction-template/static/media/3dmodel.efa12fb8245e532ad095.jpg",
+    "static/media/person2.png": "/construction-template/static/media/person2.2f08f19cea3136a6bf01.png",
+    "static/media/cad6.png": "/construction-template/static/media/cad6.6b5b9f06daed027c69dd.png",
+    "static/media/shopDrawings.jpg": "/construction-template/static/media/shopDrawings.733a27b1da85912e9a6f.jpg",
+    "static/media/cad2.png": "/construction-template/static/media/cad2.b3dfbb0533afe7d866e2.png",
+    "static/media/cad4.jpg": "/construction-template/static/media/cad4.7f390727e576bba874e4.jpg",
+    "static/media/cad5.jpg": "/construction-template/static/media/cad5.95f59882deb5a43dde77.jpg",
+    "static/media/boltplans.jpg": "/construction-template/static/media/boltplans.39ea8b3005cd9ec44a3e.jpg",
+    "static/media/plansElevations.jpg": "/construction-template/static/media/plansElevations.2dc7e8bed21eae7ce684.jpg",
+    "static/media/partsDrawing.jpg": "/construction-template/static/media/partsDrawing.9893942119f5a7bef094.jpg",
+    "index.html": "/construction-template/index.html",
+    "main.dd7aebba.css.map": "/construction-template/static/css/main.dd7aebba.css.map",
+    "main.e615490b.js.map": "/construction-template/static/js/main.e615490b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd7aebba.css",
+    "static/js/main.e615490b.js"
+  ]
+}
