@@ -1,10 +1,62 @@
-# Getting Started with Create React App
+# Interior Design Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website was created with React. It is a multiple pages mockup for a construction company, buttons and links are functional they will redirect to other pages. The pages are not new HTML files rather than rendered components using react-router-dom, feel free to implement other functionality according to your needs.
 
-## Available Scripts
+The CSS for the Navbar is done with _Styled Components_ everything else is both _Bootstrap_ and _inline Style_, some CSS is inside **App.css file** organised in the same order the sections are.
 
-In the project directory, you can run:
+## Features
+
+- Parallax banner
+- Hoverable cards
+- Components rendering with React-Router-Dom
+- Responsive Navbar with dropdown on media query
+- Fully responsive.
+
+### Components
+
+The following are standalone and reusable components with their props that are being used in other sections:
+
+- Navbar
+- Sidebar
+- Footer
+- ReturnHome button
+- ScrollToTop functionality
+
+### Sections
+
+The site is divided into two main parts:
+
+_landingSections (everything that is inside 'MainPage' component):_
+
+- Parallax
+- OurServices
+- AboutUs
+- GalleryMain
+
+_pages (every component that is being routed):_
+
+- MainPage
+- ServicesPage
+- AboutTeam
+- ProjectsPage
+- ContactPage
+
+#### Recommended Improvements
+
+1. Each card in Our Services section on MainPage could be rendered using a component and mapping an array.
+2. If requested, each photo on ProjectsPage could be more specific.
+3. Add clients review section in MainPage.
+
+#### If you plan to use this template
+
+Feel free to use it and change to your needs, acknowledgement is appreciated.
+
+#### Images and Logo
+
+**Logo:** credits to ClipartMax
+**Images:** credits to their authors in Unsplash
+
+# To run the app:
 
 ### `npm start`
 
@@ -14,57 +66,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### For all other scripts please refer to ReactJs documentation.
