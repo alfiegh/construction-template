@@ -1,4 +1,4 @@
-# Interior Design Template
+# Construction company Template
 
 This website was created with React. It is a multiple pages mockup for a construction company, buttons and links are functional they will redirect to other pages. The pages are not new HTML files rather than rendered components using react-router-dom, feel free to implement other functionality according to your needs.
 
